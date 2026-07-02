@@ -1,5 +1,8 @@
 window.onload = function () {
   alert("Welcome to My Portfolio Website !")
 };
-conts links = 
-  Document.querySelectorAll(a[href^="#"]');
+const links = 
+  Document.querySelectorAll('a[href^="#"]');
+links.forEach(link => {
+  link.addEventListener("click", function (e)
+                        
